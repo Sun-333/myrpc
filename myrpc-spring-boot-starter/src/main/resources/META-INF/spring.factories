@@ -1,0 +1,3 @@
+#-------starter自动装配---------
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.uestc.myrpcspringbootstarter.autoconfig.ClientAutoConfigure,com.uestc.myrpcspringbootstarter.autoconfig.ServerAutoConfigure
