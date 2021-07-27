@@ -22,3 +22,4 @@
 
 # 说明
 - 项目中提供myrpc客户端、myrpc服务端 使用示例
+- 目前使用application.properties的配置功能不够完善，用户自定义插件的映入需要通过JAVA配置类进行引入
