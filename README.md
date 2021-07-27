@@ -8,7 +8,7 @@
 - 通过业务线程池将服务端对消息的编码、解码与handler处理进行隔离
 - 默认提供Gzip的Rpc body消息内容的压缩
 - 默认提供Protostuff作为消息的序列化与反序列化
-- 默认提供zokeeper作为服务注册与发现中心
+- 默认提供zookeeper作为服务注册与发现中心
 - 默认提供基于随机选举的Balance机制
 - 客户端通过BeanPostProcess 扫描@RpcReference注解属性，并通过反射机制实现代理对象（序列化、反序列化、网络传输）的注入
 - 服务端通过BeanPostProcess 扫描通过@RpcService注解标记的接口实现类 并发布服务、暴露接口
